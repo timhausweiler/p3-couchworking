@@ -29,7 +29,7 @@ MongoDB with two collections:
 - title
 - description
 - location
-- contactInfo
+- contactInfo.
 - imgUrl (optional)
 
 ## MVP/PostMVP
