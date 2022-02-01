@@ -8,6 +8,7 @@ CouchWorking is the AirBNB for private Coworking spaces: are your tired of worki
 
 ## Technical architecture
 Frontend: https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g
+
 Backend: https://whimsical.com/couch-working-5z7fpHtMBA94BiigcXNXBX
 
 ## API
