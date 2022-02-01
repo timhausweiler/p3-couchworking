@@ -4,7 +4,7 @@
 
 ## Project Description
 
-CouchWorking is the AirBNB for private Coworking spaces: have a spare desk in your flat and are tired of working home alone? Share your desk on CouchWorking and meet like-minded people from around the world! If you'd like, you can even offer your guest a place to stay!
+CouchWorking is the AirBNB for private Coworking spaces: are your tired of working home alone and have a spare desk in your flat? Share it on CouchWorking and meet like-minded people from around the world! If you'd like, you can even offer your guest a place to stay!
 
 ## Wireframes
 
@@ -71,17 +71,3 @@ MongoDB with two collections:
 | Responsiveness             |    H     |      4hrs      |     4hrs      |    4hrs     |
 | Misc / bug fixes           |    H     |      4hrs      |     4hrs      |    4hrs     |
 | Total                      |    H     |    41.5hrs     |     43hrs     |    43hrs    |
-
-## SWOT Analysis
-
-### Strengths:
-
-
-### Weaknesses:
-
-
-### Opportunities:
-
-
-### Threats:
-
