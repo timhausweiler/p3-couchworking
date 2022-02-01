@@ -6,12 +6,9 @@
 
 CouchWorking is the AirBNB for private Coworking spaces: are your tired of working home alone and have a spare desk in your flat? Share it on CouchWorking and meet like-minded people from around the world! If you'd like, you can even offer your guest a place to stay!
 
-## Wireframes
-
-
-## Component Hierarchy
-https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g
-
+## Technical architecture
+Frontend: https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g
+Backend: https://whimsical.com/couch-working-5z7fpHtMBA94BiigcXNXBX
 
 ## API
 
