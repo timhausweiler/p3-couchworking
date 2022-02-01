@@ -4,36 +4,56 @@
 
 ## Project Description
 
-CouchWorking is the AirBNB for private Coworking spaces: have a spare desk in your flat and are tired of working home alone? Share your desk on CouchWorking and meet like-minded people from around the world! If you want, you can even offer accommodation!
+CouchWorking is the AirBNB for private Coworking spaces: have a spare desk in your flat and are tired of working home alone? Share your desk on CouchWorking and meet like-minded people from around the world! If you'd like, you can even offer your guest a place to stay!
 
 ## Wireframes
-
 
 
 ## Component Hierarchy
 
 
-## API and Data Sample
+## API
 
+MongoDB with two collections:
+
+1) User collection with the following schema:
+- userName
+- password
+- firstName
+- lastName
+- email
+
+2) CouchWorking collection with the following schema:
+- title
+- description
+- location
+- contactInfo
+- imgUrl (optional)
 
 ### MVP/PostMVP
 
 #### MVP
 
+- Landing page with general info
+- User functionality: create user account and log in
+- CouchWorking functionality: list all existing CouchWorking offers, detail page for each offer, create new offers and edit the offers posted by you
 
 #### PostMVP
 
+- User section: view and edit user info
+- Filter and sort CouchWorking offers
+- Connect offers to user profiles (take over username and contact info/email address)
 
 ## Project Schedule
 
 | Day     | Deliverable                               | Status   |
 | ------- | ----------------------------------------- | -------- |
-| Jan9-10 | Proposal Approval / Airtable Setup        | Complete |
-| Jan 10  | Creating react-app and component Creation | Complete |
-| Jan 11  | Get and Set Data                          | Complete |
-| Jan 12  | Router functionality                      | Complete |
-| Jan 13  | Styling and responsiveness                | Complete |
-| Jan 14  | Presentations                             | Complete |
+| Feb 1 | Proposal Approval / MongoDB setup        |  WIP |
+| Feb 2  | Backend functionality |  |
+| Feb 3  | Creating react app, API calls and component functionality                          |  |
+| Feb 4  | Component functionality & styling                       |  |
+| Feb 7  | Wrapping up and deployment                |  |
+| Feb 8  | Potentials bugs, post-mvp (?) and presentations                             |  |
 
 ## Timeframes
 
