@@ -48,7 +48,7 @@ MongoDB with two collections:
 
 | Day     | Deliverable                               | Status   |
 | ------- | ----------------------------------------- | -------- |
-| Feb 1 | Proposal Approval / MongoDB setup        |  WIP |
+| Feb 1 | Proposal Approval, project setup and MongoDB setup        |  WIP |
 | Feb 2  | Backend functionality |  |
 | Feb 3  | Creating react app, API calls and component functionality                          |  |
 | Feb 4  | Component functionality & styling                       |  |
