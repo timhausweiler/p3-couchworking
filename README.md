@@ -77,3 +77,5 @@ In parallel to the main branch, we will have a dev branch as the default branch 
 | Deploying frontend           |    H     |      tbd      |     tbd      |    tbd     |
 | Bugfixes           |    H     |      tbd      |     tbd      |    tbd     |
 | Total                      |    H     |    tbd     |     tbd     |    tbd    |
+
+-BW testing 
