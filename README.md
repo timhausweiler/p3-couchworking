@@ -30,19 +30,23 @@ MongoDB with two collections:
 - contactInfo
 - imgUrl (optional)
 
-### MVP/PostMVP
+## MVP/PostMVP
 
-#### MVP
+### MVP
 
 - Landing page with general info
 - User functionality: create user account and log in
 - CouchWorking functionality: list all existing CouchWorking offers, detail page for each offer, create new offers and edit the offers posted by you
 
-#### PostMVP
+### PostMVP
 
 - User section: view and edit user info
 - Filter and sort CouchWorking offers
 - Connect offers to user profiles (take over username and contact info/email address)
+
+## Code management
+
+In parallel to the main branch, we will have a dev branch as the default branch we will be working against. Every team member will have an individual dev-branch from which we will push to dev. Deployments will be done from the main branch.
 
 ## Project Schedule
 
