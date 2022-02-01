@@ -63,12 +63,12 @@ In parallel to the main branch, we will have a dev branch as the default branch 
 
 | Component                  | Priority | Estimated Time | Time Invested | Actual Time |
 | -------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                   |    H     |      tbd      |     tbd      |    tbd     |
-| Github setup             |    H     |     tbd      |      tbd      |     tbd     |
-| MongoDB setup |    H     |      tbd       |      tbd      |     tbd     |
-| Create backend routes          |    H     |      tbd      |     tbd      |    tbd     |
-| Create backend controllers          |    H     |      tbd      |     tbd      |    tbd     |
-| Deploy backend       |    H     |      tbd      |     tbd      |    tbd     |
+| [Proposal](https://github.com/timhausweiler/p3-couchworking/issues/1)                   |    H     |      tbd      |     tbd      |    tbd     |
+| [Github setup](https://github.com/timhausweiler/p3-couchworking/issues/2)             |    H     |     tbd      |      tbd      |     tbd     |
+| [MongoDB setup](https://github.com/timhausweiler/p3-couchworking/issues/3) |    H     |      tbd       |      tbd      |     tbd     |
+| [Create backend routes](https://github.com/timhausweiler/p3-couchworking/issues/4)          |    H     |      tbd      |     tbd      |    tbd     |
+| [Create backend controllers](https://github.com/timhausweiler/p3-couchworking/issues/5)          |    H     |      tbd      |     tbd      |    tbd     |
+| [Deploy backend](https://github.com/timhausweiler/p3-couchworking/issues/6)       |    H     |      tbd      |     tbd      |    tbd     |
 | Create React app      |    H     |      tbd      |     tbd      |    tbd     |
 | CRUD requests / API calls    |    H     |      tbd      |     tbd      |    tbd     |
 | Authentication    |    H     |      tbd      |     tbd      |    tbd     |
