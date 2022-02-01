@@ -1,15 +1,12 @@
-# Project Overview
-
-## Project name: CouchWorking
+# CouchWorking - Project Overview
 
 ## Project Description
 
 CouchWorking is the AirBNB for private Coworking spaces: are your tired of working home alone and have a spare desk in your flat? Share it on CouchWorking and meet like-minded people from around the world! If you'd like, you can even offer your guest a place to stay!
 
 ## Technical architecture
-Frontend: https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g
 
-Backend: https://whimsical.com/couch-working-5z7fpHtMBA94BiigcXNXBX
+[Frontend](https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g) and [Backend](https://whimsical.com/couch-working-5z7fpHtMBA94BiigcXNXBX)
 
 ## API
 
