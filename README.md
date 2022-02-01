@@ -10,6 +10,7 @@ CouchWorking is the AirBNB for private Coworking spaces: are your tired of worki
 
 
 ## Component Hierarchy
+https://whimsical.com/couchworking-components-hierarchy-XFVwRNckhByMcumR12Hh8g
 
 
 ## API
