@@ -16,18 +16,20 @@ CouchWorking is the AirBNB for private Coworking spaces: are your tired of worki
 
 MongoDB with two collections:
 
-1) User collection with the following schema:
+1. User collection with the following schema:
+
 - userName
 - password
 - firstName
 - lastName
 - email
 
-2) CouchWorking collection with the following schema:
+2. CouchWorking collection with the following schema:
+
 - title
 - description
 - location
-- contactInfo
+- contactInfo.
 - imgUrl (optional)
 
 ## MVP/PostMVP
@@ -50,30 +52,30 @@ In parallel to the main branch, we will have a dev branch as the default branch 
 
 ## Project Schedule
 
-| Day     | Deliverable                               | Status   |
-| ------- | ----------------------------------------- | -------- |
-| Feb 1 | Proposal Approval, project setup and MongoDB setup        |  WIP |
-| Feb 2  | Backend functionality |  |
-| Feb 3  | Creating React app, API calls, authentication and component functionality                          |  |
-| Feb 4  | Component functionality & styling                       |  |
-| Feb 7  | Wrapping up and deployment                |  |
-| Feb 8  | Potentials bugs, post-mvp (?) and presentations                             |  |
+| Day   | Deliverable                                                               | Status |
+| ----- | ------------------------------------------------------------------------- | ------ |
+| Feb 1 | Proposal Approval, project setup and MongoDB setup                        | WIP    |
+| Feb 2 | Backend functionality                                                     |        |
+| Feb 3 | Creating React app, API calls, authentication and component functionality |        |
+| Feb 4 | Component functionality & styling                                         |        |
+| Feb 7 | Wrapping up and deployment                                                |        |
+| Feb 8 | Potentials bugs, post-mvp (?) and presentations                           |        |
 
 ## Timeframes
 
-| Component                  | Priority | Estimated Time | Time Invested | Actual Time |
-| -------------------------- | :------: | :------------: | :-----------: | :---------: |
-| [Proposal](https://github.com/timhausweiler/p3-couchworking/issues/1)                   |    H     |      tbd      |     tbd      |    tbd     |
-| [Github setup](https://github.com/timhausweiler/p3-couchworking/issues/2)             |    H     |     tbd      |      tbd      |     tbd     |
-| [MongoDB setup](https://github.com/timhausweiler/p3-couchworking/issues/3) |    H     |      tbd       |      tbd      |     tbd     |
-| [Create backend routes](https://github.com/timhausweiler/p3-couchworking/issues/4)          |    H     |      tbd      |     tbd      |    tbd     |
-| [Create backend controllers](https://github.com/timhausweiler/p3-couchworking/issues/5)          |    H     |      tbd      |     tbd      |    tbd     |
-| [Deploy backend](https://github.com/timhausweiler/p3-couchworking/issues/6)       |    H     |      tbd      |     tbd      |    tbd     |
-| Create React app      |    H     |      tbd      |     tbd      |    tbd     |
-| CRUD requests / API calls    |    H     |      tbd      |     tbd      |    tbd     |
-| Authentication    |    H     |      tbd      |     tbd      |    tbd     |
-| Build screens                    |    H     |      tbd      |     tbd      |    tbd     |
-| Styling             |    H     |      tbd      |     tbd      |    tbd     |
-| Deploying frontend           |    H     |      tbd      |     tbd      |    tbd     |
-| Bugfixes           |    H     |      tbd      |     tbd      |    tbd     |
-| Total                      |    H     |    tbd     |     tbd     |    tbd    |
+| Component                                                                               | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| [Proposal](https://github.com/timhausweiler/p3-couchworking/issues/1)                   |    H     |      tbd       |      tbd      |     tbd     |
+| [Github setup](https://github.com/timhausweiler/p3-couchworking/issues/2)               |    H     |      tbd       |      tbd      |     tbd     |
+| [MongoDB setup](https://github.com/timhausweiler/p3-couchworking/issues/3)              |    H     |      tbd       |      tbd      |     tbd     |
+| [Create backend routes](https://github.com/timhausweiler/p3-couchworking/issues/4)      |    H     |      tbd       |      tbd      |     tbd     |
+| [Create backend controllers](https://github.com/timhausweiler/p3-couchworking/issues/5) |    H     |      tbd       |      tbd      |     tbd     |
+| [Deploy backend](https://github.com/timhausweiler/p3-couchworking/issues/6)             |    H     |      tbd       |      tbd      |     tbd     |
+| Create React app                                                                        |    H     |      tbd       |      tbd      |     tbd     |
+| CRUD requests / API calls                                                               |    H     |      tbd       |      tbd      |     tbd     |
+| Authentication                                                                          |    H     |      tbd       |      tbd      |     tbd     |
+| Build screens                                                                           |    H     |      tbd       |      tbd      |     tbd     |
+| Styling                                                                                 |    H     |      tbd       |      tbd      |     tbd     |
+| Deploying frontend                                                                      |    H     |      tbd       |      tbd      |     tbd     |
+| Bugfixes                                                                                |    H     |      tbd       |      tbd      |     tbd     |
+| Total                                                                                   |    H     |      tbd       |      tbd      |     tbd     |
