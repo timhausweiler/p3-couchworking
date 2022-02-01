@@ -50,7 +50,7 @@ MongoDB with two collections:
 | ------- | ----------------------------------------- | -------- |
 | Feb 1 | Proposal Approval, project setup and MongoDB setup        |  WIP |
 | Feb 2  | Backend functionality |  |
-| Feb 3  | Creating react app, API calls and component functionality                          |  |
+| Feb 3  | Creating React app, API calls, authentication and component functionality                          |  |
 | Feb 4  | Component functionality & styling                       |  |
 | Feb 7  | Wrapping up and deployment                |  |
 | Feb 8  | Potentials bugs, post-mvp (?) and presentations                             |  |
@@ -59,15 +59,17 @@ MongoDB with two collections:
 
 | Component                  | Priority | Estimated Time | Time Invested | Actual Time |
 | -------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                   |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Airtable setup             |    H     |     .5hrs      |      1hr      |     1hr     |
-| Initial setup of react app |    H     |      1hr       |      1hr      |     1hr     |
-| Get functionality          |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Set functionality          |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Router functionality       |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Setting up components      |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Component functionality    |    H     |      8hrs      |     8hrs      |    8hrs     |
-| Styling                    |    H     |      4hrs      |     5hrs      |    5hrs     |
-| Responsiveness             |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Misc / bug fixes           |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Total                      |    H     |    41.5hrs     |     43hrs     |    43hrs    |
+| Proposal                   |    H     |      tbd      |     tbd      |    tbd     |
+| Github setup             |    H     |     tbd      |      tbd      |     tbd     |
+| MongoDB setup |    H     |      tbd       |      tbd      |     tbd     |
+| Create backend routes          |    H     |      tbd      |     tbd      |    tbd     |
+| Create backend controllers          |    H     |      tbd      |     tbd      |    tbd     |
+| Deploy backend       |    H     |      tbd      |     tbd      |    tbd     |
+| Create React app      |    H     |      tbd      |     tbd      |    tbd     |
+| CRUD requests / API calls    |    H     |      tbd      |     tbd      |    tbd     |
+| Authentication    |    H     |      tbd      |     tbd      |    tbd     |
+| Build screens                    |    H     |      tbd      |     tbd      |    tbd     |
+| Styling             |    H     |      tbd      |     tbd      |    tbd     |
+| Deploying frontend           |    H     |      tbd      |     tbd      |    tbd     |
+| Bugfixes           |    H     |      tbd      |     tbd      |    tbd     |
+| Total                      |    H     |    tbd     |     tbd     |    tbd    |
