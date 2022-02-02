@@ -1,10 +1,10 @@
 import Couch from "../models/couch.js";
 import errorHandler from "../utilities/error.js";
 
-export const createCouch = (req, res) => {
+export const createCouch = async (req, res) => {
   try {
     const couch = new Couch(req.body);
-    couch.save();
+    await couch.save();
     return res.json(errorHandler(false, "Created couch", couch));
   } catch (error) {
     console.log(error);
@@ -12,10 +12,10 @@ export const createCouch = (req, res) => {
   }
 };
 
-export const deleteCouch = (req, res) => {
+export const deleteCouch = async (req, res) => {
   try {
     const {id} = req.params;
-    const deletedCouch = Couch.findByIdAndDelete(id);
+    const deletedCouch = await Couch.findByIdAndDelete(id);
     if (deletedCouch) {
       return res.json(errorHandler(false, "Couch deleted", deletedCouch));
     }
@@ -47,10 +47,9 @@ export const updateCouch = (req, res) => {
   }
 };
 
-export const fetchAllCouches = (req, res) => {
+export const fetchAllCouches = async (req, res) => {
   try {
-    const couches = Couch.find();
-    res.json(couches);
+    const couches = await Couch.find();
     return res.json(errorHandler(false, "fetched all couches", couches));
   } catch (error) {
     console.log(error.message);
@@ -58,10 +57,10 @@ export const fetchAllCouches = (req, res) => {
   }
 };
 
-export const fetchCouch = (req, res) => {
+export const fetchCouch = async (req, res) => {
   try {
     const {id} = req.params;
-    const couch = Couch.findById(id);
+    const couch = await Couch.findById(id);
     if (couch) {
       return res.json(couch);
     }
