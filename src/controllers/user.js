@@ -1,9 +1,9 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import User from "./models/user.js";
+import User from "../models/user.js";
 
 const SALT_ROUNDS = 10;
-const SECRET = process.env.SECRET;
+const SECRET = process.env.SECRET || "astronaut"
 
 export const signUp = async (req, res) => {
   try {
@@ -18,7 +18,7 @@ export const signUp = async (req, res) => {
     });
     await user.save();
     const payload = {
-      id = user._id,
+      id = User._id,
     };
     const token = jwt.sign(payload, SECRET)
     res.status(201).json({ token });
