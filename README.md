@@ -67,14 +67,14 @@ In parallel to the main branch, we will have a dev branch as the default branch 
 | --------------------------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | [Proposal](https://github.com/timhausweiler/p3-couchworking/issues/1)                   |    H     |       2        |       2       |      2      |
 | [Github setup (backend)](https://github.com/timhausweiler/p3-couchworking/issues/2)     |    H     |       1        |       1       |      1      |
-| [MongoDB setup](https://github.com/timhausweiler/p3-couchworking/issues/3)              |    H     |      tbd       |      tbd      |     tbd     |
-| [Create backend routes](https://github.com/timhausweiler/p3-couchworking/issues/4)      |    H     |      tbd       |      tbd      |     tbd     |
-| [Create backend controllers](https://github.com/timhausweiler/p3-couchworking/issues/5) |    H     |      tbd       |      tbd      |     tbd     |
-| [Deploy backend](https://github.com/timhausweiler/p3-couchworking/issues/6)             |    H     |      tbd       |      tbd      |     tbd     |
-| [Create React app](https://github.com/timhausweiler/p3-couchworking/issues/11)          |    H     |      tbd       |      tbd      |     tbd     |
+| [MongoDB setup](https://github.com/timhausweiler/p3-couchworking/issues/3)              |    H     |      0.5       |      0.5      |     0.5     |
+| [Create backend routes](https://github.com/timhausweiler/p3-couchworking/issues/4)      |    H     |      2       |      2      |     2     |
+| [Create backend controllers](https://github.com/timhausweiler/p3-couchworking/issues/5) |    H     |      5       |      5      |     5     |
+| [Deploy backend](https://github.com/timhausweiler/p3-couchworking/issues/6)             |    H     |      0.5       |      0.5      |     0.5     |
 | [Github setup (frontend)](https://github.com/timhausweiler/p3-couchworking/issues/17)   |    H     |      tbd       |      tbd      |     tbd     |
+| [Create React app](https://github.com/timhausweiler/p3-couchworking/issues/11)          |    H     |      tbd       |      tbd      |     tbd     |
 | [CRUD requests / API calls](https://github.com/timhausweiler/p3-couchworking/issues/12) |    H     |      tbd       |      tbd      |     tbd     |
-| [Authentication](https://github.com/timhausweiler/p3-couchworking/issues/13)            |    H     |      tbd       |      tbd      |     tbd     |
+| [Authentication](https://github.com/timhausweiler/p3-couchworking/issues/13)            |    H     |      2       |      2      |     2     |
 | [Build screens](https://github.com/timhausweiler/p3-couchworking/issues/14)             |    H     |      tbd       |      tbd      |     tbd     |
 | [Styling](https://github.com/timhausweiler/p3-couchworking/issues/15)                   |    H     |      tbd       |      tbd      |     tbd     |
 | [Deploy frontend](https://github.com/timhausweiler/p3-couchworking/issues/16)           |    H     |      tbd       |      tbd      |     tbd     |
