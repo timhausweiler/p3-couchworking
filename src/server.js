@@ -3,6 +3,7 @@ import logger from "morgan";
 import couches from "./routes/couches.js";
 import users from "./routes/users.js";
 import db from "./db/connection.js";
+import "dotenv/config";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
