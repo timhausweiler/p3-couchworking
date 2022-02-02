@@ -23,7 +23,6 @@ export const deleteCouch = async (req, res) => {
         return res.json(errorHandler(true, "Couch doesn't exist"));
     }
 }
-};
 
 export const updateCouch = (req, res) => {
   try {
