@@ -23,6 +23,7 @@ export const signUp = async (req, res) => {
       username: user.username,
     };
     const token = jwt.sign(payload, SECRET)
+    res.cookie("jwt", token, { maxAge: 840000 });
     // res.status(201).json({ token });
     return res.json(errorHandler(false, "Signed up user", user))
 
@@ -45,6 +46,7 @@ export const signIn = async (req, res) => {
         username: user.username,
       }
       const token = jwt.sign(payload, SECRET)
+      res.cookie("jwt", token, { maxAge: 840000 });
       return res.json(errorHandler(false, "Signed in user", user))
     } else {
       return res.json(errorHandler(true, "Invalid Credentials"))
@@ -54,3 +56,9 @@ export const signIn = async (req, res) => {
     return res.json(errorHandler(true, "Error signing in user"))
   }
 };
+
+//need to change redirect route
+export const signOut=(req,res) => {
+  res.cookie("jwt", "", {maxAge: 1}).redirect("/user-api");
+}
+
