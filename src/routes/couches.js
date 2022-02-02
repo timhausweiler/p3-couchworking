@@ -5,7 +5,7 @@ const router = Router();
 
 router.post("/create", controllers.createCouch);
 router.delete('/delete/:id', controllers.deleteCouch);
-router.put("/update", controllers.updateCouch);
+router.put("/update/:id", controllers.updateCouch);
 router.get("/couches", controllers.fetchAllCouches)
 router.get("/couch/:id", controllers.fetchCouch)
 
