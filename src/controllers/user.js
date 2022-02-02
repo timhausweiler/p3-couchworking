@@ -19,7 +19,7 @@ export const signUp = async (req, res) => {
     });
     await user.save();
     const payload = {
-      // id = user._id,
+      id: user._id,
       username: user.username,
     };
     const token = jwt.sign(payload, SECRET)
@@ -30,5 +30,27 @@ export const signUp = async (req, res) => {
     console.log(error.message);
     // res.status(400).json({ error: error.message });
     return res.json(errorHandler(true, "Error signing up user"))
+  }
+};
+
+export const signIn = async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    const user = await User.findOne({ username: username }).select(
+      "username email password_digest"
+    )
+    if (await bcrypt.compare(password, user.password_digest)) {
+      const payload = {
+        id: user._id,
+        username: user.username,
+      }
+      const token = jwt.sign(payload, SECRET)
+      return res.json(errorHandler(false, "Signed in user", user))
+    } else {
+      return res.json(errorHandler(true, "Invalid Credentials"))
+    }
+  } catch (error) {
+    console.log(error.message)
+    return res.json(errorHandler(true, "Error signing in user"))
   }
 };
