@@ -17,13 +17,12 @@ export const deleteCouch = async (req, res) => {
         const { id } = req.params
         const deletedCouch = await Couch.findByIdAndDelete(id)
         if (deletedCouch) {
-        return res.json(errorHandler(false, "Couch deleted"));
+        return res.json(errorHandler(false, "Couch deleted", deletedCouch));
         } throw new Error('Couch not found')
     } catch (error) {
         return res.json(errorHandler(true, "Couch doesn't exist"));
     }
 }
-};
 
 export const updateCouch = (req, res) => {
   try {
