@@ -74,7 +74,7 @@ In parallel to the main branch, we will have a dev branch as the default branch 
 | [Github setup (frontend)](https://github.com/timhausweiler/p3-couchworking/issues/17)   |    H     |      tbd       |      tbd      |     tbd     |
 | [Create React app](https://github.com/timhausweiler/p3-couchworking/issues/11)          |    H     |      tbd       |      tbd      |     tbd     |
 | [CRUD requests / API calls](https://github.com/timhausweiler/p3-couchworking/issues/12) |    H     |      tbd       |      tbd      |     tbd     |
-| [Authentication](https://github.com/timhausweiler/p3-couchworking/issues/13)            |    H     |      tbd       |      tbd      |     tbd     |
+| [Authentication](https://github.com/timhausweiler/p3-couchworking/issues/13)            |    H     |      2       |      2      |     2     |
 | [Build screens](https://github.com/timhausweiler/p3-couchworking/issues/14)             |    H     |      tbd       |      tbd      |     tbd     |
 | [Styling](https://github.com/timhausweiler/p3-couchworking/issues/15)                   |    H     |      tbd       |      tbd      |     tbd     |
 | [Deploy frontend](https://github.com/timhausweiler/p3-couchworking/issues/16)           |    H     |      tbd       |      tbd      |     tbd     |
