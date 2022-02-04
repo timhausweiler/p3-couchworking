@@ -47,7 +47,7 @@ export const signIn = async (req, res) => {
       // console.log(token);
       res.cookie("jwt", token, {maxAge: 840000})
       console.log(req.headers.cookie)
-      return res.json(errorHandler(false, "Signed in user", user))
+      return res.json(errorHandler(false, "Signed in user", token))
     } else {
       return res.json(errorHandler(true, "Invalid Credentials"))
     }
