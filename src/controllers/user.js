@@ -4,7 +4,7 @@ import User from "../models/user.js"
 import errorHandler from "../utilities/error.js"
 
 const SALT_ROUNDS = 10
-const SECRET = process.env.SECRET || "astronaut"
+const SECRET = process.env.SECRET || "Astronaut"
 
 export const signUp = async (req, res) => {
   try {
