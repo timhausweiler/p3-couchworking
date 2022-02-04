@@ -1,4 +1,3 @@
-import {redirect} from "express/lib/response"
 import jwt from "jsonwebtoken"
 const SECRET = process.env.SECRET || "astronaut"
 
