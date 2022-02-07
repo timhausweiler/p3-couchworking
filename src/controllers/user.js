@@ -8,23 +8,35 @@ const SECRET = process.env.SECRET || "Astronaut"
 
 export const signUp = async (req, res) => {
   try {
-    const {username, email, password, firstName, lastName} = req.body
-    const password_digest = await bcrypt.hash(password, SALT_ROUNDS)
-    const user = new User({
-      username,
-      firstName,
-      lastName,
-      email,
-      password_digest,
-    })
-    await user.save()
-    const payload = {
-      id: user._id,
-      username: user.username,
+    const existingUser = await User.findOne({
+      // email: req.body.email,
+      username: req.body.username,
+    }).lean(true)
+
+    if (existingUser) {
+      // res.status(403);
+      console.log(existingUser)
+      return res.json(errorHandler(true, "A user exists with that username already exists - please change and try again"))
+    } else {
+      const {username, email, password, firstName, lastName} = req.body
+      const password_digest = await bcrypt.hash(password, SALT_ROUNDS)
+      const user = new User({
+        username,
+        firstName,
+        lastName,
+        email,
+        password_digest,
+      })
+      await user.save()
+      const payload = {
+        id: user._id,
+        username: user.username,
+      }
+      const token = jwt.sign(payload, SECRET)
+      res.cookie("jwt", token, {maxAge: 840000})
+      // res.status(201).json({ token });
+      return res.json(errorHandler(false, "Signed up user", user))
     }
-    const token = jwt.sign(payload, SECRET)
-    res.cookie("jwt", token, {maxAge: 840000})
-    return res.json(errorHandler(false, "Signed up user", user))
   } catch (error) {
     console.log(error.message)
     return res.json(errorHandler(true, "Error signing up user"))
