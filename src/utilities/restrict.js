@@ -1,16 +1,20 @@
 import jwt from "jsonwebtoken"
-const SECRET = process.env.SECRET || "astronaut"
+import errorHandler from "./error.js"
+const SECRET = process.env.SECRET || "Astronaut"
 
-const restrict = (req,res,next) => {
+const restrict = (req, res, next) => {
   try {
-    const token = req.headers.authorization.split(' ')[1]
+    const token = req.headers.authorization
+    console.log(token)
+    // .split("")[1]
     const data = jwt.verify(token, SECRET)
-    console.log(token);
+
     next()
   } catch (error) {
+    // console.log(req.headers.authorization)
     console.log(error)
     return res.json(errorHandler(true, "unauthorized access"))
   }
 }
 
-export default restrict;
+export default restrict
