@@ -24,11 +24,9 @@ export const signUp = async (req, res) => {
     }
     const token = jwt.sign(payload, SECRET)
     res.cookie("jwt", token, {maxAge: 840000})
-    // res.status(201).json({ token });
     return res.json(errorHandler(false, "Signed up user", user))
   } catch (error) {
     console.log(error.message)
-    // res.status(400).json({ error: error.message });
     return res.json(errorHandler(true, "Error signing up user"))
   }
 }
