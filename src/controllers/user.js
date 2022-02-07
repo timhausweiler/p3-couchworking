@@ -11,21 +11,21 @@ export const signUp = async (req, res) => {
     const existingUser = await User.findOne({
       // email: req.body.email,
       username: req.body.username,
-    }).lean(true);
-    
+    }).lean(true)
+
     if (existingUser) {
       // res.status(403);
-      console.log(existingUser);
-      return res.json(errorHandler(true, "A user exists with that username already exists - please change and try again"));
+      console.log(existingUser)
+      return res.json(errorHandler(true, "A user exists with that username already exists - please change and try again"))
     } else {
-      const { username, email, password, firstName, lastName } = req.body
+      const {username, email, password, firstName, lastName} = req.body
       const password_digest = await bcrypt.hash(password, SALT_ROUNDS)
       const user = new User({
         username,
         firstName,
         lastName,
         email,
-        password_digest
+        password_digest,
       })
       await user.save()
       const payload = {
@@ -33,13 +33,12 @@ export const signUp = async (req, res) => {
         username: user.username,
       }
       const token = jwt.sign(payload, SECRET)
-      res.cookie("jwt", token, { maxAge: 840000 })
+      res.cookie("jwt", token, {maxAge: 840000})
       // res.status(201).json({ token });
       return res.json(errorHandler(false, "Signed up user", user))
     }
   } catch (error) {
     console.log(error.message)
-    // res.status(400).json({ error: error.message });
     return res.json(errorHandler(true, "Error signing up user"))
   }
 }
