@@ -1,9 +1,10 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"
 
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
 
 const Couch = new Schema(
   {
+    username: {type: String, trim: true},
     title: {type: String, required: true, trim: true},
     description: {type: String, required: true, trim: true},
     location: {type: String, required: true, trim: true},
@@ -11,6 +12,6 @@ const Couch = new Schema(
     contactInfo: {type: String, required: true, trim: true},
   },
   {timestamps: true}
-);
+)
 
-export default mongoose.model("couch", Couch);
+export default mongoose.model("couch", Couch)
